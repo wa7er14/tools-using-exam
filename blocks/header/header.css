@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.header {
+  background: transparent url("../images/background.jpg") 0 0 no-repeat;
+  background-size: cover;
+  padding-top: 7.65%;
+}
+
+.header__logo {
+  margin-top: 7.7%;
+}
+
+.header__scroll {
+  margin-top: 6.35%;
+}
+
+/*# sourceMappingURL=header.css.map */

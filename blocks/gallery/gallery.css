@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.gallery__item {
+  display: inline-block;
+  width: 17.52%;
+  margin-right: 3.14%;
+  margin-left: -4px;
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery__item {
+    width: 47%;
+    margin-right: 6%;
+  }
+}
+
+.gallery__item:nth-child(5n+5) {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery__item:nth-child(5n+5) {
+    margin-right: 6%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery__item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+}
+
+.gallery__item:nth-child(n+6) {
+  margin-top: 3.14%;
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery__item:nth-child(n+6) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery__item:nth-child(n+2) {
+    margin-top: 6%;
+  }
+}
+
+.gallery__img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=gallery.css.map */

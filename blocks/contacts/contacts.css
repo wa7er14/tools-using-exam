@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.contacts {
+  color: #202020;
+  text-align: center;
+}
+
+.contacts__channel {
+  margin-bottom: 1.06em;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts__channel {
+    font-size: 4.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contacts__channel {
+    font-size: 4.8rem;
+  }
+}
+
+.contacts__email {
+  font-size: 6rem;
+  margin-bottom: 0.88em;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts__email {
+    font-size: 9.6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contacts__email {
+    font-size: 9.6rem;
+  }
+}
+
+.contacts__phone {
+  font-size: 4.8rem;
+  margin-bottom: 1.2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts__phone {
+    font-size: 7.6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contacts__phone {
+    font-size: 7.6rem;
+  }
+}
+
+/*# sourceMappingURL=contacts.css.map */

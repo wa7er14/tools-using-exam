@@ -1,0 +1,47 @@
+@import '../../scss/import.scss';
+.contacts {
+  color: $mainblack;
+  text-align: center;
+
+  &__channel {
+    margin-bottom: (32px/$head3*.1em*1rem/1px);
+    font-size: $head3;
+    font-weight: bold;
+    @include tablet {
+      font-size: $head3-xl;
+    }
+
+    @include phone {
+      font-size: $head3-xl;
+    }
+
+  }
+
+  &__email {
+    font-size: $head1;
+    margin-bottom: (53px/$head1*.1em*1rem/1px);
+    @include tablet {
+      font-size: $head1-xl;
+    }
+
+    @include phone {
+      font-size: $head1-xl;
+    }
+
+  }
+
+  &__phone {
+    font-size: $head2;
+    margin-bottom: (60px/$head2*.1em*1rem/1px);
+    @include tablet {
+      font-size: $head2-xl;
+    }
+
+    @include phone {
+      font-size: $head2-xl;
+    }
+
+  }
+
+}
+

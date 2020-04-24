@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.footer {
+  padding-top: 10.41%;
+}
+
+.footer__copyright {
+  margin-top: 10.67%;
+}
+
+/*# sourceMappingURL=footer.css.map */

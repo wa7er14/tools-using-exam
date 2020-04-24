@@ -1,0 +1,41 @@
+
+$logoheight: 47.6rem;
+$logoheight-l: $logoheight*1.3;
+$logoheight-xl: $logoheight*2;
+$logopad: 5.5rem;
+
+@import '../../scss/import.scss';
+.logo {
+  text-align: center;
+  padding-top: ($logoheight + $logopad);
+  background: transparent url('../images/logo.png') 50% 0 no-repeat;
+  background-size: auto $logoheight;
+  @include tablet {
+    background-size: auto $logoheight-l;
+    padding-top: ($logoheight-l + $logopad);
+  }
+
+  @include phone {
+    background-size: auto $logoheight-xl;
+    padding-top: ($logoheight-xl + $logopad);
+
+  }
+
+  &__text {
+    font-size: $head1;
+    @include tablet {
+      font-size: $head1-l;
+    }
+
+    @include phone {
+      font-size: $head1-xl;
+    }
+
+  }
+
+  &__text_style_bold {
+    font-weight: bold;
+  }
+
+}
+

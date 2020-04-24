@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.sm__button:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=sm.css.map */

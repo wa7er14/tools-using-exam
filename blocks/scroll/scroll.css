@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.scroll {
+  text-align: center;
+}
+
+.scroll__text {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .scroll__text {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .scroll__text {
+    font-size: 3.7rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .scroll__text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .scroll__img {
+    width: 8%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=scroll.css.map */

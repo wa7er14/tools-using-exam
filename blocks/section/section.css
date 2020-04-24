@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.section {
+  padding-bottom: 2.81%;
+}
+
+/*# sourceMappingURL=section.css.map */
