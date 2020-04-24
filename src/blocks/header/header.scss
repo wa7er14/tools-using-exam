@@ -1,0 +1,16 @@
+@import '../../scss/import.scss';
+.header {
+  background: transparent url('../images/background.jpg') 0 0 no-repeat;
+  background-size: cover;
+  padding-top: (147px/1920px*100%);
+
+  &__logo {
+    margin-top: (148px/1920px*100%);
+  }
+
+  &__scroll {
+    margin-top: (122px/1920px*100%);
+  }
+
+}
+

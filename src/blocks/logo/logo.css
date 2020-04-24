@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 53.1rem;
+  background: transparent url("../images/logo.png") 50% 0 no-repeat;
+  background-size: auto 47.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    background-size: auto 61.8rem;
+    padding-top: 67.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    background-size: auto 95.2rem;
+    padding-top: 100.7rem;
+  }
+}
+
+.logo__text {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo__text {
+    font-size: 7.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo__text {
+    font-size: 9.6rem;
+  }
+}
+
+.logo__text_style_bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=logo.css.map */

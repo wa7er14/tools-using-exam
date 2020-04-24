@@ -1,0 +1,51 @@
+@import '../../scss/import.scss';
+.gallery {
+
+  &__item {
+    display: inline-block;
+    width: (279px/(1920px - $o-pad-m*2)*100%);
+    margin-right: (50px/(1920px - $o-pad-m*2)*100%);
+    margin-left: -4px;
+    @include phone {
+      width: 47%;
+      margin-right: 6%;
+    }
+
+  }
+
+  &__item:nth-child(5n+5) {
+    margin-right: 0;
+    @include phone {
+      margin-right: 6%;
+    }
+
+  }
+
+  &__item:nth-child(2n+2) {
+    @include phone {
+      margin-right: 0;
+    }
+
+  }
+
+  &__item:nth-child(n+6) {
+    margin-top: (50px/(1920px - $o-pad-m*2)*100%);
+    @include phone {
+      margin-top: 0;
+    }
+
+  }
+
+  &__item:nth-child(n+2) {
+    @include phone {
+      margin-top: 6%;
+    }
+
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+}

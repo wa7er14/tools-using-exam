@@ -4,14 +4,11 @@
   "description": "Boilerplate for layout tasks with visual regression testing",
   "main": "src/main.js",
   "scripts": {
-    "css:test": "rimraf ./backstop_data/bitmaps_test && backstop test --config=config/backstop/backstopConfig",
-    "css:reference": "rimraf ./backstop_data/bitmaps_reference && backstop reference --config=config/backstop/backstopConfig",
     "deploy": "git add . && git commit -m 'solution' && git push origin develop && npm run publish",
     "lint": "stylelint src/**/*.css && eslint src/**/*.js && htmllint --rc ./node_modules/@mate-academy/htmllint-config/.htmllintrc src/*.html",
-    "postinstall": "npm run css:reference && git checkout -b develop",
     "publish": "bash ./config/hooks/deploy.sh",
     "start": "node server.js",
-    "test": "npm run lint && npm run css:test"
+    "test": "npm run lint"
   },
   "keywords": [],
   "author": "Mate Academy",
@@ -21,8 +18,6 @@
     "@mate-academy/eslint-config": "*",
     "@mate-academy/htmllint-config": "*",
     "@mate-academy/stylelint-config": "*",
-    "@mate-academy/backstop-config": "*",
-    "backstopjs": "^4.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^8.0.1",
     "htmllint": "^0.7.3",

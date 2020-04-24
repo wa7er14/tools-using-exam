@@ -1,0 +1,17 @@
+@import '../../scss/import.scss';
+
+.about {
+  padding-left: $pad-m;
+  padding-right: $pad-m;
+  padding-top: (174px/1920px*100%);
+  @include tablet {
+    padding-left: $pad-s;
+    padding-right: $pad-s;
+  }
+
+  &__scroll {
+    margin-top: 75px;
+  }
+
+}
+

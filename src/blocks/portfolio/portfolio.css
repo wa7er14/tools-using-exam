@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.portfolio {
+  text-align: center;
+  background: transparent url("../images/background2.jpg") 0 0 no-repeat;
+  background-size: cover;
+  padding-left: 8.54%;
+  padding-right: 8.54%;
+  padding-top: 4.68%;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio {
+    padding-left: 3.48%;
+    padding-right: 3.48%;
+  }
+}
+
+.portfolio__headline {
+  font-size: 6rem;
+  margin-top: 1.46em;
+  margin-bottom: 1.33em;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio__headline {
+    font-size: 7.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .portfolio__headline {
+    font-size: 9.6rem;
+  }
+}
+
+.portfolio__scroll {
+  margin-top: 75px;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,10 @@
+@import '../../scss/import.scss';
+.footer {
+  padding-top: (200px/1920px*100%);
+
+  &__copyright {
+    margin-top: (205px/1920px*100%);
+  }
+
+}
+

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  padding: 2.23% 0 0;
+  border-top: 1px solid #f1f1f1;
+}
+
+.copyright__text {
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=copyright.css.map */

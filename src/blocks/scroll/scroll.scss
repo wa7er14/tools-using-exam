@@ -1,0 +1,31 @@
+@import '../../scss/import.scss';
+.scroll {
+  text-align: center;
+
+  &__text {
+    font-weight: bold;
+    font-size: $commontext;
+    margin-bottom: 20px;
+    @include laptop {
+      font-size: $commontext-l;
+    }
+
+    @include tablet {
+      font-size: $commontext-xl;
+    }
+
+    @include phone {
+      font-size: $commontext-fix;
+    }
+
+  }
+
+  &__img {
+    @include phone {
+      width: 8%;
+      height: auto;
+    }
+
+  }
+
+}

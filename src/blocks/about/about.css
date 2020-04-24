@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.about {
+  padding-left: 8.54%;
+  padding-right: 8.54%;
+  padding-top: 9.06%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding-left: 3.48%;
+    padding-right: 3.48%;
+  }
+}
+
+.about__scroll {
+  margin-top: 75px;
+}
+
+/*# sourceMappingURL=about.css.map */

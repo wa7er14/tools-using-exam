@@ -1,0 +1,36 @@
+@import '../../scss/import.scss';
+.portfolio {
+  text-align: center;
+  background: transparent url('../images/background2.jpg') 0 0 no-repeat;
+  background-size: cover;
+  padding-left: $pad-m;
+  padding-right: $pad-m;
+  padding-top: (90px/1920px*100%);
+  @include tablet {
+    padding-left: $pad-s;
+    padding-right: $pad-s;
+  }
+
+  @include phone {
+  }
+
+  &__headline {
+    font-size: $head1;
+    margin-top: (88px/$head1*.1rem*1em/1px);
+    margin-bottom: (80px/$head1*.1rem*1em/1px);
+    @include tablet {
+      font-size: $head1-l;
+    }
+
+    @include phone {
+      font-size: $head1-xl;
+    }
+
+  }
+
+  &__scroll {
+    margin-top: 75px;
+  }
+
+}
+

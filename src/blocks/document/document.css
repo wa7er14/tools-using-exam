@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Light.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../fonts/Nexa Bold.otf");
+  font-weight: bold;
+}
+
+.document {
+  font-size: 0.52vw;
+  line-height: 1;
+}
+
+/*# sourceMappingURL=document.css.map */
