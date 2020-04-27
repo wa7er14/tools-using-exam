@@ -74,7 +74,7 @@
 
 @media only screen and (max-width: 768px) {
   .about-me__photo {
-    width: 80%
+    width: 80%;
     display: block;
     margin: 0 auto;
   }
@@ -155,7 +155,7 @@
 
 .contacts__channel {
   margin-bottom: 1.06em;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -342,8 +342,9 @@
   font-size: 2.4rem;
   text-align: center;
   padding: 2.13% 0 1.87%;
-  background-color: rgba(150, 150, 150, 0.7);
-  border-bottom: 1px solid #F1F1F1;
+  background-color: #8834fb;
+  border-bottom: 1px solid #f1f1f1;
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 1366px) {
