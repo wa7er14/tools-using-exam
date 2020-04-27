@@ -14,6 +14,8 @@ ___
 1. Fork this repo
 1. Clone forked repo
 1. Open VSCode in repo folder
+1. Install next plugins: `htmllint`, `stylelint`, `eslint`
+    - or show installed in list
 1. Install dependencies
 1. Start project
 1. Find file `scroll.scss` using search by file names
