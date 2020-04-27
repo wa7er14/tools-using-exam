@@ -74,7 +74,7 @@
 
 @media only screen and (max-width: 768px) {
   .about-me__photo {
-    width: 80%;
+    width: 80%
     display: block;
     margin: 0 auto;
   }
@@ -343,7 +343,7 @@
   text-align: center;
   padding: 2.13% 0 1.87%;
   background-color: rgba(150, 150, 150, 0.7);
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #F1F1F1;
 }
 
 @media only screen and (max-width: 1366px) {
